@@ -1,6 +1,6 @@
 close all;
 clear all;clc;
-sourcePic=double(imread('./image/1.jpg'))/255;
+sourcePic=double(imread('./1.jpg'))/255;
 [m,n,c]=size(sourcePic);
 J = zeros(size(sourcePic));
 av=sourcePic(:,:,1)+sourcePic(:,:,2)+sourcePic(:,:,3);
